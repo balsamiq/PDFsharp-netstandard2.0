@@ -367,7 +367,9 @@ namespace PdfSharp
                             System.Threading.Thread.CurrentThread.CurrentUICulture = System.Globalization.CultureInfo.InvariantCulture;
 #endif
 #if !NETFX_CORE && !UWP
-                            _resmngr = Properties.Resources.ResourceManager;
+                            //_resmngr = Properties.Resources.ResourceManager;
+                            _resmngr = new ResourceManager("PdfSharp.Resources.Messages",
+                                typeof(PSSR).GetTypeInfo().Assembly);
 #else
                             _resmngr = new ResourceManager("PdfSharp.Resources.Messages",
                                 typeof(PSSR).GetTypeInfo().Assembly);

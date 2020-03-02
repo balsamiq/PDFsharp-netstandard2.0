@@ -16,6 +16,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfSharp.Performance.Profil
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfSharp.Charting", "PdfSharp.Charting\PdfSharp.Charting.csproj", "{07C7DC14-9D18-4863-A93C-79ADD0DAB682}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfSharp-wpf", "PdfSharp-wpf\PdfSharp-wpf.csproj", "{80200640-166A-4032-81D2-746D326657F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -142,6 +144,30 @@ Global
 		{07C7DC14-9D18-4863-A93C-79ADD0DAB682}.Release|x64.Build.0 = Release|Any CPU
 		{07C7DC14-9D18-4863-A93C-79ADD0DAB682}.Release|x86.ActiveCfg = Release|Any CPU
 		{07C7DC14-9D18-4863-A93C-79ADD0DAB682}.Release|x86.Build.0 = Release|Any CPU
+		{80200640-166A-4032-81D2-746D326657F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80200640-166A-4032-81D2-746D326657F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80200640-166A-4032-81D2-746D326657F3}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{80200640-166A-4032-81D2-746D326657F3}.Debug|ARM.Build.0 = Debug|Any CPU
+		{80200640-166A-4032-81D2-746D326657F3}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{80200640-166A-4032-81D2-746D326657F3}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{80200640-166A-4032-81D2-746D326657F3}.Debug|Win32.ActiveCfg = Debug|x86
+		{80200640-166A-4032-81D2-746D326657F3}.Debug|Win32.Build.0 = Debug|x86
+		{80200640-166A-4032-81D2-746D326657F3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{80200640-166A-4032-81D2-746D326657F3}.Debug|x64.Build.0 = Debug|Any CPU
+		{80200640-166A-4032-81D2-746D326657F3}.Debug|x86.ActiveCfg = Debug|x86
+		{80200640-166A-4032-81D2-746D326657F3}.Debug|x86.Build.0 = Debug|x86
+		{80200640-166A-4032-81D2-746D326657F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80200640-166A-4032-81D2-746D326657F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80200640-166A-4032-81D2-746D326657F3}.Release|ARM.ActiveCfg = Release|Any CPU
+		{80200640-166A-4032-81D2-746D326657F3}.Release|ARM.Build.0 = Release|Any CPU
+		{80200640-166A-4032-81D2-746D326657F3}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{80200640-166A-4032-81D2-746D326657F3}.Release|Mixed Platforms.Build.0 = Release|x86
+		{80200640-166A-4032-81D2-746D326657F3}.Release|Win32.ActiveCfg = Release|x86
+		{80200640-166A-4032-81D2-746D326657F3}.Release|Win32.Build.0 = Release|x86
+		{80200640-166A-4032-81D2-746D326657F3}.Release|x64.ActiveCfg = Release|Any CPU
+		{80200640-166A-4032-81D2-746D326657F3}.Release|x64.Build.0 = Release|Any CPU
+		{80200640-166A-4032-81D2-746D326657F3}.Release|x86.ActiveCfg = Release|x86
+		{80200640-166A-4032-81D2-746D326657F3}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

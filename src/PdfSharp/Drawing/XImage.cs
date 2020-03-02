@@ -261,8 +261,10 @@ namespace PdfSharp.Drawing
 #endif
 #if WPF && !SILVERLIGHT
             // Create a WPF BitmapImage.
+            // Use the OnLoad BitmapCaheOption to avoid a crash when passing the stream of a JPEG image
             BitmapImage bmi = new BitmapImage();
             bmi.BeginInit();
+            bmi.CacheOption = BitmapCacheOption.OnLoad;
             bmi.StreamSource = stream;
             bmi.EndInit();
             _wpfImage = bmi;
